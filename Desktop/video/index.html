@@ -1,0 +1,1338 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国最大的在线教育网站</title>
+<style type="text/css">
+
+ /* 头部样式 */
+ blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+ margin:0px;
+ padding:0px;
+ font-family:'微软雅黑','宋体';
+}
+ a {
+ text-decoration:none;
+ color:#181818;
+	 line-height: 1.5;
+}
+ ol,ul{
+	 list-style: none outside none;
+ }
+ ol,ul,li{
+	list-style: none;
+ }
+ img{
+	 border: 0;
+ }
+
+ .header {
+ width:1015px;
+	 min-width: 1015px;
+ height:78px;
+ position:relative;
+ margin:0px auto;
+ overflow:hidden;
+}
+ .logo {
+ float:left;
+
+}
+
+.seacher{
+	width:448px;
+	height:40px;
+	position:absolute;
+	left:331px;
+	top:26px;
+	border:1px solid #E60012;
+	background-color:#FFF;
+}
+
+.seacherInput{
+	width:362px;
+	height:40px;
+	float:left;
+}
+.seacherIco{
+	background:url(images/icon.png) no-repeat;
+	width:17px;
+	height:18px;
+	float:left;
+	margin:10px;
+}
+
+.seacherSubInput{
+	line-height:38px;
+	width:292px;
+	height:38px;
+	border:0px;
+	font-size:14px;
+	outline:none;
+}
+
+#seacherBtn{
+	width:86px;
+	height:40px;
+	border:0px;
+	float:left;
+	color:#FFF;
+	font-size:18px;
+	line-height:40px;
+	text-align:center;
+	background-color:#E60012;
+}
+
+.user{
+	width:240px;
+	float:left;
+	position:relative;
+	top:26px;
+	left:470px;
+}
+.user a{
+	float:left;
+	width:28px;
+	height:21px;
+	line-height:21px;
+	padding-top:22px;
+	text-align:center;
+	color:#b0b0b0;
+	margin-left:28px;
+	font-size:12px;
+	cursor:pointer;
+	background:url(images/icon.png) no-repeat;
+}
+.user a.kg{
+	background-position:2px -53px;
+}
+.user a.gz{
+	background-position:2px -110px;
+}
+.user a.sc{
+	background-position:2px -167px;
+}
+.user a.lg{
+    background-position:2px -224px;
+}
+
+ /* 导航栏样式 */
+ .navBox{
+	 background:url(images/navBg.png) repeat-x;
+	 width:100%;
+	 height:48px;
+	 min-width:1015px;
+	 border-top:1px solid #eeeeee;
+	 z-index:20;
+ }
+
+
+ .nav{
+	 width:1000px;
+	 margin:0 auto;
+	 position:relative;
+ }
+
+ .nav a{
+	 float:left;
+	 height:45px;
+	 font-size:15px;
+	 line-height:45px;
+	 padding:0 16px;
+	 color:#fff;
+ }
+
+ .cur{
+	 color:#FAD160 !important;
+	 background-color:#99191A;
+ }
+
+ /* 分类导航样式 */
+.wrap{
+	background:url(images/mainBg.gif) repeat;
+}
+
+.sortBox{
+	width:100%;
+	height:90px;
+	min-width: 1015px;
+	overflow:hidden;
+	background-color:#F0F1F3;
+	border-bottom:1px solid #b3b3b3;
+	margin-bottom:35px;
+
+}
+
+.sort{
+	width:980px;
+	height:30px;
+	margin:0 auto;
+}
+
+.sort dl{
+	float:left;
+	padding-top:15px;
+}
+
+.sort dt{
+	background:url(images/icon.png) no-repeat -376px 0;
+	margin-bottom:10px;
+	width:60px;
+	height:21px;
+	font-size:12px;
+	line-height:21px;
+	text-align:center;
+	color:#fff;
+}
+
+.dlsty{
+	width:290px;
+	margin-right:30px;
+}
+
+.sort dd{
+	position:relative;
+	overflow:hidden;
+}
+
+.redText{
+	color:#e60012;
+}
+
+.sort dd a{
+	font-size:12px;
+	line-height:12px;
+	float:left;
+	height:12px;
+	margin:0 20px 10px 0;
+}
+
+ .sort dd i{
+	border-left:1px solid #b3b3b3;
+	border-right:1px solid #fff;
+	height:35px;
+	width:0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+	.main{
+		width: 1015px;
+		min-width: 1015px;
+		margin:0 auto;
+		position:relative;
+
+	}
+
+.mPageCon{
+	overflow: hidden;
+}
+
+	.mptitle{
+		height: 22px;
+		margin-bottom: 10px;
+	}
+
+ .mptitle a{
+	 line-height: 22px;
+	 height: 22px;
+	 padding: 2px 5px;
+	 font-size: 14px;
+	 color: #000;
+ }
+
+	.mptitle a .mptitle span{
+		float: left;
+	}
+
+	.mptitle span{
+		color: #b3b3b3;
+		width: 1px;
+		height: 8px;
+	}
+
+	.curs{
+		color: #FFFFFF !important;
+		background-color:#99191A;
+	}
+
+	.mPageCon li{
+		float: left;
+		width: 305px;
+		height: 235px;
+		padding: 5px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+
+	}
+
+	.mPageCon .imgBox{
+		width: 300px;
+		height: 175px;
+	}
+	.imgBox{
+		position: relative;
+		display: block;
+		overflow: hidden;
+	}
+
+ .mPageCon .imgBox img{
+	 width: 300px;
+	 height: 175px;
+ }
+	.lazy{
+		background: url("images/loader.gif") no-repeat center;
+	}
+
+	a img{
+		display: block;
+	}
+
+	.imgTitle{
+		color: #fff;
+		background: url("images/blackBg.png");
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		padding-left: 5px;
+		height: 20px;
+		font-size: 12px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+.iconPlay{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin: -21px auto auto -21px;
+	background: url("images/ico-Play.png") no-repeat;
+}
+
+.mPageCon .summary{
+	position: relative;
+	height: 38px;
+	padding-top: 5px;
+}
+
+ .mPageCon .summary dt{
+	 overflow: hidden;
+	 height: 36px;
+	 font-size: 12px;
+ }
+
+ .mPageCon .summary span{
+	 display: block;
+	 background: url("images/ico-3.gif") no-repeat 0 center;
+	 padding-left: 13px;
+	 color: #b3b3b3;
+	 font-size: 12px;
+ }
+
+ .mPageCon .summary i{
+	 font-size: 14px;
+	 font-weight: bold;
+	 color: #e60012;
+	 position: absolute;
+	 top:40px;
+	 right: 0;
+ }
+
+     /* 分页样式 */
+	.subPage{
+		border: 1px solid #f1efef;
+		border-top: none;
+		color: #999;
+		padding: 31px 0 45px;
+		height: 27px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	.subPage a{
+		display: inline-block;
+		background: url("images/subPage.gif");
+		height: 25px;
+		border: 1px solid #f1efef;
+		margin-left: 4px;
+		border-radius: 4px;
+		line-height: 25px;
+		padding: 0 10px;
+	}
+
+	.subPage span{
+		display: inline-block;
+		background: url("images/subPage.gif");
+		height: 25px;
+		border: 1px solid #f1efef;
+		margin-left: 4px;
+		border-radius: 4px;
+		line-height: 25px;
+		padding: 0 10px;
+	}
+
+	.subPage a:hover{color:#ff0000}
+
+	.subCur{
+		color:#ff0000 !important;
+	}
+
+	/* 尾部样式 */
+	.footer{
+		width: 100%;
+		height: 180px;
+		background-color: #f0f1f3;
+		border-top: 1px solid #b0b0b0;
+		display: block;
+		min-width: 1015px;
+		background-color: #f0f1f3;
+	}
+
+	.foot{
+		width: 1015px;
+		min-width: 1015px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.footer .foot .lf{
+		float: left;
+		line-height: 25px;
+		overflow: hidden;
+		padding-left: 140px;
+		position: relative;
+		margin: 25px auto 0 0;
+		width: 720px;
+		height: 150px;
+	}
+
+	.footer .ewmpic{
+		position: absolute;
+		left: 0;
+		width: 150px;
+		height: 150px;
+		line-height: 15px;
+	}
+
+	.ewmpic h2{
+		color: #e60012;
+		padding-bottom: 15px;
+		font-size: 18px !important;
+		font-weight: 500;
+		position: absolute;
+		top: 5px;
+		left: 160px;
+		float: left;
+	}
+
+	.ewmpic span{
+		font-weight: 500;
+		color: #333333;
+	}
+
+	.subNav{
+		position: absolute;
+		width: 720px;
+		left: 160px;
+		top: 40px;
+	}
+	.subNav a{
+		float: left;
+		color: #666;
+		font-size: 13px;
+	}
+	.subNav span{
+		float: left;
+		margin: 3px 10px;
+		height: 15px;
+		border-left: 1px solid #b3b3b3;
+		border-right: 1px solid #FFFFFF;
+	}
+
+	.subNav a:hover{
+		color: #ff0000;
+	}
+
+    .ftc{
+		position: absolute;
+		width: 720px;
+		left: 160px;
+		top: 80px;
+		color: #999999;
+		font-size: 12px;
+	}
+	.ftc2{
+		position: absolute;
+		width: 720px;
+		left: 160px;
+		top: 115px;
+		color: #999999;
+		font-size: 12px;
+	}
+
+	.collMe{
+		position: absolute;
+		top: -5px;
+		left: 450px;
+	}
+
+</style>
+<script type="text/javascript">
+
+	window.onload = function(){
+
+		/* 搜索框按钮文字变色 */
+		var oSeaBtn = document.getElementById("seacherBtn");
+		oSeaBtn.onmouseover = function(){
+			this.style.color="#FAD160";
+		};
+		oSeaBtn.onmouseout = function(){
+			this.style.color="#FFF";
+		};
+
+		/* 用户模块文字变色 */
+		var oUsers = document.getElementsByClassName("user")[0];
+		var oUsersA = oUsers.getElementsByTagName("a");
+
+		for(var i = 0; i<oUsersA.length;i++){
+
+			oUsersA[i].onmouseover = function(){
+
+				this.style.color="#E60012";
+
+			};
+
+			oUsersA[i].onmouseout = function(){
+
+				this.style.color="#b0b0b0";
+
+			};
+
+		}
+
+		/* 导航栏字体背景色 */
+		var oNav = document.getElementsByClassName("nav")[0];
+		var navA = oNav.getElementsByTagName("a");
+		var curs;
+
+		for(var i = 0 ; i < navA.length ; i++){
+			if(navA[i].className=="cur"){
+				curs=navA[i];
+			}
+
+			navA[i].onmouseover = function(){
+				this.className="cur";
+			};
+
+			navA[i].onmouseout = function(){
+
+				if(this!=curs){
+				  this.className="";
+				}
+			};
+
+			navA[i].onclick = function(){
+				curs.className="";
+				this.className="cur";
+				curs=this;
+			};
+
+		}
+
+		/* 分类导航 */
+
+		var oSort = document.getElementsByClassName("sort")[0];
+		var oDls = oSort.getElementsByTagName("dl");
+		var oAs1 = oDls[0].getElementsByTagName("a");
+		var oAs2 = oDls[1].getElementsByTagName("a");
+		var oAs3 = oDls[2].getElementsByTagName("a");
+		var odl1,odl2,odl3;
+
+
+		for(var i = 0; i < oAs1.length ; i++){
+
+			if(oAs1[i].className=="redText"){
+
+				odl1=oAs1[i];
+
+			}
+
+			oAs1[i].onmouseover = function(){
+
+				this.className="redText";
+
+			};
+
+			oAs1[i].onmouseout = function(){
+
+				if(this!=odl1){
+					this.className="";
+				}
+
+			};
+
+			oAs1[i].onclick = function(){
+
+				odl1.className="";
+				odl1=this;
+				this.className="redText";
+
+			};
+		}
+
+
+		for(var i = 0; i < oAs2.length ; i++){
+
+			if(oAs2[i].className=="redText"){
+					odl2=oAs2[i];
+
+			}
+
+			oAs2[i].onmouseover = function(){
+
+				this.className="redText";
+
+			};
+
+			oAs2[i].onmouseout = function(){
+
+				if(this!=odl2){
+					this.className="";
+				}
+
+			};
+
+			oAs2[i].onclick = function(){
+
+				odl2.className="";
+				odl2=this;
+				this.className="redText";
+
+			};
+		}
+
+
+		for(var i = 0; i < oAs3.length ; i++){
+
+			if(oAs3[i].className=="redText"){
+					odl3=oAs3[i];
+
+			}
+
+			oAs3[i].onmouseover = function(){
+
+				this.className="redText";
+
+			};
+
+			oAs3[i].onmouseout = function(){
+
+				if(this!=odl3){
+					this.className="";
+				}
+
+			};
+
+			oAs3[i].onclick = function(){
+
+				odl3.className="";
+				odl3=this;
+				this.className="redText";
+
+			};
+		}
+
+
+		/* 影片小分类 */
+		var oMptit = document.getElementsByClassName('mptitle')[0];
+		var oMptitAs = oMptit.getElementsByTagName('a');
+		var cursSty;
+
+		for(var i = 0; i < oMptitAs.length; i++){
+			if(oMptitAs[i].className=="curs"){
+				cursSty = oMptitAs[i];
+			}
+			oMptitAs[i].onmouseover = function(){
+				this.className="curs";
+			};
+			oMptitAs[i].onmouseout = function(){
+				if(this!=cursSty){
+					this.className="";
+				}
+			};
+			oMptitAs[i].onclick = function(){
+				cursSty.className="";
+				cursSty=this;
+				this.className="curs";
+			};
+		}
+
+
+		/* 影片效果 */
+		var oPaCon = document.getElementsByClassName('mPageCon')[0];
+		var oLis = oPaCon.getElementsByTagName('li');
+		var oDts = oPaCon.getElementsByTagName('dt');
+		var oicoPlay = oPaCon.getElementsByClassName('iconPlay');
+
+		for(var i = 0; i < oLis.length; i++){
+			oLis[i].onmouseover = function(){
+				this.style.backgroundColor="#FAD160";
+				this.getElementsByClassName('iconPlay')[0].style.display="block";
+				this.getElementsByTagName('dt')[0].style.color="red";
+			};
+			oLis[i].onmouseout = function(){
+				this.style.backgroundColor="";
+				this.getElementsByClassName('iconPlay')[0].style.display="none";
+				this.getElementsByTagName('dt')[0].style.color="black";
+			};
+		}
+
+		/* 分页效果  */
+		var oSub = document.getElementsByClassName("subPage")[0];
+		var oSubAs = oSub.getElementsByTagName("a");
+		var oA;
+		var num=1;
+		var setCol = function (){
+			for(var j = 0; j < oSubAs.length; j++){
+				if(j==(num-1)){
+					oA.className="";
+					oA=oSubAs[j+2];
+					oA.className="subCur";
+					break;
+				}
+			}
+		};
+		for(var i = 0; i < oSubAs.length; i++){
+			var lastPage = oSubAs[oSubAs.length-3].innerHTML;
+
+			if(oSubAs[i].className=="subCur"){
+				oA = oSubAs[i];
+			}
+			oSubAs[i].onclick = function(){
+				var s = this.innerHTML;
+				if(!isNaN(s)){
+				oA.className="";
+				oA=this;
+				this.className="subCur";
+					num=s;
+					alert("到第"+s+"页了");
+				}else{
+
+					switch(s){
+						case "首页":
+							if(num==1){
+								alert("已经是首页，不能再向前了");
+							}else{
+								num=1;
+								setCol();
+								alert("跳到了"+s);
+							}
+							break;
+						case "上一页":
+							if(num==1){
+								alert("已经是第一页了");
+							}else{
+								num--;
+								setCol();
+							}
+							break;
+						case "下一页":
+							if(num==lastPage){
+								alert("已经是最后一页了");
+							}else{
+								num++;
+								setCol();
+							}
+							break;
+						case "尾页":
+							if(num==lastPage){
+								alert("已经是最后一页了");
+							}else{
+								num=lastPage;
+								setCol();
+								alert("跳到了"+s);
+							}
+							break;
+
+					}
+
+				}
+			};
+		}
+
+
+		/* 二维码变换效果 */
+		var oPicBox = document.getElementsByClassName('ewmpic')[0];
+		var oImg = oPicBox.getElementsByTagName('img')[0];
+		var curImgIndex=1;
+		var setImg = function(){
+			if(curImgIndex==7){
+				curImgIndex=1;
+			}
+			oImg.src = "images/QQ-"+curImgIndex+".png";
+			curImgIndex++;
+		}
+		//开启定时器
+		setInterval(setImg,5000);
+
+
+
+	};
+
+
+
+
+</script>
+
+</head>
+
+<body>
+
+	<!-- 头部开始 -->
+<div class="header">
+  <!-- LOGO 开始 -->
+  <h1 class="logo">
+
+    <a href="javascript:;" target="_blank" title="JxufeEducation">
+
+       <img src="images/logo.png" alt="JxufeEducation" />
+
+    </a>
+
+  </h1>
+
+  <!-- 搜索框 开始 -->
+  <div class="seacher">
+
+	<div class="seacherInput">
+
+    	<span class="seacherIco"></span>
+        <input class="seacherSubInput" placeholder="搜索感兴趣的课程"/>
+
+    </div>
+
+    <a href="javascript:;" id="seacherBtn">搜索</a>
+
+  </div>
+
+  <!-- 用户 开始 -->
+  <div class="user">
+  	<a href="javascript:;" class="kg">看过</a>
+    <a href="javascript:;" class="gz">关注</a>
+    <a href="javascript:;" class="sc">收藏</a>
+  	<a href="javascript:;" class="lg">登陆</a>
+  </div>
+
+</div>
+
+	<!-- 导航开始 -->
+<div class="navBox">
+
+    <div class="nav">
+
+        <a href="javascript:;" class="cur">首页</a>
+        <a href="javascript:;" >计算机</a>
+        <a href="javascript:;" >经济管理</a>
+        <a href="javascript:;" >考研</a>
+        <a href="javascript:;" >心理学</a>
+        <a href="javascript:;" >外语</a>
+        <a href="javascript:;" >文学历史</a>
+        <a href="javascript:;" >艺术设计</a>
+        <a href="javascript:;" >工学</a>
+        <a href="javascript:;" >理学</a>
+        <a href="javascript:;" >更多</a>
+
+
+    </div>
+
+
+</div>
+
+	<!-- 主体部分 -->
+<div class="wrap">
+	<!-- 分类导航开始 -->
+	<div class="sortBox">
+
+    	<div class="sort">
+
+        	<dl class="dlsty">
+            	<dt>按年级</dt>
+                <dd>
+
+                    <a href="javascript:;" class="redText">全部</a>
+                    <a href="javascript:;">小学</a>
+                    <a href="javascript:;">初中</a>
+                    <a href="javascript:;">高中</a>
+                    <a href="javascript:;">高考</a>
+                    <a href="javascript:;">大学</a>
+                    <a href="javascript:;">考研</a>
+                    <a href="javascript:;">四级</a>
+                    <a href="javascript:;">六级</a>
+                    <i></i>
+
+                </dd>
+            </dl>
+
+            <dl class="dlsty">
+            	<dt>按学校</dt>
+                <dd>
+
+                    <a href="javascript:;" class="redText">全部</a>
+                    <a href="javascript:;">江西财经大学</a>
+                    <a href="javascript:;">江西财经大学</a>
+                    <a href="javascript:;">江西财经大学</a>
+                    <a href="javascript:;">江西财经大学</a>
+                    <i></i>
+
+                </dd>
+            </dl>
+
+            <dl class="dlsty">
+            	<dt>按时间</dt>
+                <dd>
+
+                    <a href="javascript:;" class="redText">全部</a>
+                    <a href="javascript:;">2022</a>
+                    <a href="javascript:;">2021</a>
+                    <a href="javascript:;">2020</a>
+                    <a href="javascript:;">2019</a>
+                    <a href="javascript:;">2018</a>
+                    <a href="javascript:;">2017</a>
+                    <a href="javascript:;">2016</a>
+                    <a href="javascript:;">2015</a>
+                    <a href="javascript:;">2014</a>
+
+                </dd>
+            </dl>
+
+        </div>
+
+    </div>
+
+	<!-- 影片部分 -->
+	<div class="main">
+		<!-- 影片列表 -->
+		<div class="mPageCon">
+			<!-- 小分类 -->
+			<div class="mptitle">
+
+				<a href="javascript:;" class="curs">最近更新</a>
+				<span>|</span>
+				<a href="javascript:;">最高人气</a>
+				<span>|</span>
+				<a href="javascript:;">最受好评</a>
+
+			</div>
+
+			<!-- 影片列表 -->
+			<ul>
+				<li>
+					<a href="test1.html"  title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/001.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="test2.html" title="电路（上）">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/002.jpg"  alt="电路（上）"/>
+							<div class="imgTitle">电路（上）</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>哈尔滨工业大学</dt>
+							<dd>
+								<span>1234</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="test3.html"  title="程序设计与算法（二）算法基础">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/003.jpg"  alt="程序设计与算法（二）算法基础"/>
+							<div class="imgTitle">程序设计与算法（二）算法基础</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>北京大学</dt>
+							<dd>
+								<span>8250</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="音乐与健康">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/004.jpg"  alt="音乐与健康"/>
+							<div class="imgTitle">音乐与健康</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>宁波大学</dt>
+							<dd>
+								<span>138</span>
+								<i>9.8</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="微摄影之“摄影基础”">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/005.jpg"  alt="微摄影之“摄影基础”"/>
+							<div class="imgTitle">微摄影之“摄影基础”</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>上海工程技术大学</dt>
+							<dd>
+								<span>80</span>
+								<i>8.5</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="高等数学习题课(一)">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/006.jpg"  alt="高等数学习题课(一)"/>
+							<div class="imgTitle">高等数学习题课(一)</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>哈尔滨工业大学</dt>
+							<dd>
+								<span>67</span>
+								<i>9.5</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/007.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/008.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/009.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/010.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/011.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/012.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/013.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/014.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/015.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="制胜：一部孙子傲商海">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/016.jpg"  alt="制胜：一部孙子傲商海"/>
+							<div class="imgTitle">制胜：一部孙子傲商海</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>江西财经大学</dt>
+							<dd>
+								<span>10086</span>
+								<i>10.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="电机学">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/017.jpg"  alt="电机学"/>
+							<div class="imgTitle">电机学</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>哈尔滨工业大学</dt>
+							<dd>
+								<span>455</span>
+								<i>3.8</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="大学物理典型问题解析—近代物理">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/018.jpg"  alt="大学物理典型问题解析—近代物理"/>
+							<div class="imgTitle">大学物理典型问题解析—近代物理</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>北京理工大学</dt>
+							<dd>
+								<span>319</span>
+								<i>8.0</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="诸子的智慧">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/019.jpg"  alt="诸子的智慧"/>
+							<div class="imgTitle">诸子的智慧</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>南开大学</dt>
+							<dd>
+								<span>672</span>
+								<i>7.3</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="零基础学C语言">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/020.jpg"  alt="零基础学C语言"/>
+							<div class="imgTitle">零基础学C语言</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>中国地质大学(武汉)</dt>
+							<dd>
+								<span>352</span>
+								<i>5.7</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" target="_blank" title="走进天文学">
+						<div class="imgBox iconjt">
+							<img class="lazy" src="movieImages/021.jpg"  alt="走进天文学"/>
+							<div class="imgTitle">走进天文学</div>
+							<div class="iconPlay" style="display: none; opacity: 1;"></div>
+						</div>
+						<dl class="summary">
+							<dt>南京大学</dt>
+							<dd>
+								<span>352</span>
+								<i>5.7</i>
+							</dd>
+						</dl>
+					</a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- 分页 -->
+		<div class="subPage">
+
+			<a href="javascript:;">首页</a>&nbsp;
+			<a href="javascript:;">上一页</a>&nbsp;
+			<a href="javascript:;" class="subCur">1</a>&nbsp;
+			<a href="javascript:;">2</a>&nbsp;
+			<a href="javascript:;">3</a>&nbsp;
+			<a href="javascript:;">4</a>&nbsp;
+			<a href="javascript:;">5</a>&nbsp;
+			<a href="javascript:;">6</a>&nbsp;
+			<a href="javascript:;">下一页</a>&nbsp;
+			<a href="javascript:;">尾页</a>&nbsp;
+
+
+		</div>
+
+	</div>
+
+</div>
+
+	<!-- 尾部 -->
+<div class="footer">
+
+	<div class="foot">
+
+		<div class="lf">
+
+			<div class="ewmpic">
+				<img src="images/QQ-1.png" alt="扫描二维码加QQ群~" title="扫描二维码加QQ群~"/>
+				<h2>
+				<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bf2d17c7a17dd6377a0b4292988b7919d23516e10aac70bb43952ea73653e842">
+				<img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="挑战从现在开始" title="挑战从现在开始"></a>
+				</h2>
+				<div class="subNav">
+					<a href="javascript:;" target="_blank">关于我们</a>
+					<span></span>
+					<a href="javascript:;" target="_blank">服务条款</a>
+					<span></span>
+					<a href="javascript:;" target="_blank">广告服务</a>
+					<span></span>
+					<a href="javascript:;" target="_blank">人才招聘</a>
+					<span></span>
+					<a href="javascript:;" target="_blank">在线留言</a>
+				</div>
+
+				<ul>
+					<li class="ftc">
+						Copyright © 2013-2018
+						<a
+						target="_blank"
+						href="//shang.qq.com/wpa/qunwpa?idkey=bf2d17c7a17dd6377a0b4292988b7919d23516e10aac70bb43952ea73653e842"
+						title="欢迎加入QQ群">挑战从现在开始</a>, All Rights Reserved.备案号：赣B2-20050163号-1　
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+</body>
+</html>
