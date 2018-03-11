@@ -19,4 +19,8 @@ emotion-video-control
    * The video-play part are store in video the js for it are stored in videojs file
 
 ### logic structure
-   this systerm was made up with server-side and clint-side, the server-side is on the python and combine with face_classification it means that we can call the camera and catch your face than analyze your emotion, and use it decide if it' need to send message to the client(vedio-play), in the meantime the client-side playing video when it was received the message form the server-side, it should change it's play plan, speed or increase the voice
+   * This systerm was made up with server-side and clint-side
+      * The server-side is on the python and combine with face_classification <br> 
+      ``it means that we can call the camera and catch your face then analyze your emotion, and use it decide if it' need to send message to the client(vedio-play)``
+      * The client-side is playing video at the same time <br>
+      ``when it was received the message form the server-side, it should change it's play plan, speed or increase the voice``
