@@ -8,8 +8,8 @@ emotion-video-control
 ## * [python-websocket-server](https://github.com/TakeDumbbell/python-websocket-server)
    We can use python send message to js easily by this project  
 
-## * [python-websocket-server](https://github.com/TakeDumbbell/face_classification)
-   This project make this systerm can call our computer's camera
+## * [face_classification](https://github.com/TakeDumbbell/face_classification)
+   This project make this systerm can call our computer's camera and classify the user's emotion
 
 ## The structure of this project
 
